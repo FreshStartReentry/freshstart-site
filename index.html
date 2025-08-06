@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FreshStart Reentry Initiative</title>
+<style>
+  /* Reset and base */
+  body, html {
+    margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f6ff;
+    color: #0a2342;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: linear-gradient(135deg, #004aad 0%, #ffb800 100%);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative;
+  }
+  /* Simple logo placeholder */
+  .logo {
+    margin: 0 auto 1rem;
+    width: 80px; height: 80px;
+  }
+  /* SVG path/cloud logo */
+  .logo svg {
+    width: 80px;
+    height: 80px;
+  }
+  h1 {
+    margin: 0 0 0.25rem 0;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+  }
+  h2 {
+    color: #ffb800;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  main {
+    flex: 1;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  /* Job categories */
+  ul.job-categories {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.job-categories li {
+    background: #004aad;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: default;
+  }
+  ul.job-categories li .employers {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+    color: #f0e68c;
+  }
+  /* Contact form (visual only) */
+  form {
+    max-width: 400px;
+    margin-top: 1rem;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid #004aad;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  button {
+    background: #ffb800;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #004aad;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background: #ffaa00;
+  }
+  footer {
+    background: #0a2342;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .support-us {
+    background: #ffb800;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #004aad;
+    font-weight: 700;
+    text-align: center;
+    max-width: 400px;
+    margin: 1rem auto;
+    box-shadow: 0 0 10px rgba(255,184,0,0.5);
+  }
+  a.cashapp-link {
+    color: #004aad;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  a.cashapp-link:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    main {
+      margin: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo" aria-label="FreshStart logo - path coming from clouds" role="img">
+    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" >
+      <!-- clouds -->
+      <ellipse cx="20" cy="20" rx="14" ry="9" fill="#fff" />
+      <ellipse cx="34" cy="18" rx="14" ry="9" fill="#fff" />
+      <ellipse cx="47" cy="22" rx="14" ry="9" fill="#fff" />
+      <!-- path -->
+      <path d="M32 27 L36 60 L28 60 L32 27 Z" fill="#ffb800" />
+    </svg>
+  </div>
+  <h1>FreshStart Reentry Initiative</h1>
+  <p>Your pathway to new opportunities after incarceration</p>
+</header>
+
+<main>
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      FreshStart, powered by Zion Mission of Hope, is dedicated to helping formerly incarcerated individuals find meaningful employment and rebuild their lives with dignity and hope. We focus on connecting you to felon-friendly employers in the Charlotte area and beyond.
+    </p>
+  </section>
+
+  <section>
+    <h2>Job Categories</h2>
+    <ul class="job-categories">
+      <li>
+        Warehouse
+        <div class="employers">Sample employers: Amazon, UPS, FedEx, Local Distribution Centers</div>
+      </li>
+      <li>
+        Hospitality
+        <div class="employers">Hotels, Restaurants, Event Staff, Cleaning Services</div>
+      </li>
+      <li>
+        Construction
+        <div class="employers">Local Contractors, Skilled Labor, Equipment Operators</div>
+      </li>
+      <li>
+        Retail
+        <div class="employers">Stores like Walmart, Target, Dollar General</div>
+      </li>
+      <li>
+        Food Service
+        <div class="employers">Fast Food, Catering, Cafeterias</div>
+      </li>
+      <li>
+        Transportation
+        <div class="employers">Delivery Drivers, Trucking Companies (CDL opportunities)</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>You can reach out to us anytime at <a href="mailto:manifestgracey01@gmail.com">manifestgracey01@gmail.com</a></p>
+    <form onsubmit="alert('This form is a placeholder. Please contact via email.'); return false;">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required />
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required />
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your message here..." rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="support-us">
+    <h2>Support Us</h2>
+    <p>If you want to support our mission and help us keep this initiative going, please consider donating via Cash App:</p>
+    <p><a href="https://cash.app/$manifestrunitup" target="_blank" rel="noopener" class="cashapp-link">$manifestrunitup</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Zion Mission of Hope | FreshStart Reentry Initiative
+</footer>
+
+</body>
+</html>
